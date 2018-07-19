@@ -1,0 +1,6 @@
+framework module Pods_KingFisher_Image_CacheUITests {
+  umbrella header "Pods-KingFisher Image CacheUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
