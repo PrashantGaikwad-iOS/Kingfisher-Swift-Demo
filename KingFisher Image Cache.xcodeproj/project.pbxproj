@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		894C076B2105BA77006EA137 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 894C076A2105BA77006EA137 /* loading.png */; };
 		897E74ED20FF4D0E00C17FA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897E74EC20FF4D0E00C17FA2 /* AppDelegate.swift */; };
 		897E74EF20FF4D0E00C17FA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897E74EE20FF4D0E00C17FA2 /* ViewController.swift */; };
 		897E74F220FF4D0E00C17FA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897E74F020FF4D0E00C17FA2 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		1BACB2DC8544FE85736D9C35 /* Pods_KingFisher_Image_Cache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KingFisher_Image_Cache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F03C7FFA0E8F708CFCE70CC /* Pods_KingFisher_Image_CacheTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KingFisher_Image_CacheTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B36BACF53B4528138C10BC /* Pods-KingFisher Image CacheTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingFisher Image CacheTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KingFisher Image CacheTests/Pods-KingFisher Image CacheTests.release.xcconfig"; sourceTree = "<group>"; };
+		894C076A2105BA77006EA137 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
 		897E74E920FF4D0E00C17FA2 /* KingFisher Image Cache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KingFisher Image Cache.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		897E74EC20FF4D0E00C17FA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		897E74EE20FF4D0E00C17FA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		897E74EB20FF4D0E00C17FA2 /* KingFisher Image Cache */ = {
 			isa = PBXGroup;
 			children = (
+				894C076A2105BA77006EA137 /* loading.png */,
 				897E74EC20FF4D0E00C17FA2 /* AppDelegate.swift */,
 				897E74EE20FF4D0E00C17FA2 /* ViewController.swift */,
 				897E751A20FF4F0D00C17FA2 /* ImageCollectionViewCell.swift */,
@@ -276,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				894C076B2105BA77006EA137 /* loading.png in Resources */,
 				897E74F720FF4D1000C17FA2 /* LaunchScreen.storyboard in Resources */,
 				897E74F420FF4D1000C17FA2 /* Assets.xcassets in Resources */,
 				897E74F220FF4D0E00C17FA2 /* Main.storyboard in Resources */,

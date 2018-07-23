@@ -39,11 +39,11 @@ extension ViewController: UICollectionViewDataSource {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "imageCell", for: indexPath) as! ImageCollectionViewCell
         if indexPath.row < 99 {
             print(indexPath.row)
-            cell.urlImageView.kf.setImage(with: URL(string:"https://randomuser.me/api/portraits/women/" + "\(indexPath.row)" + ".jpg")!)
+            cell.urlImageView.kf.setImage(with: URL(string:"https://randomuser.me/api/portraits/women/" + "\(indexPath.row)" + ".jpg")!,placeholder:UIImage(named: "loading"))
         }
         else if indexPath.row > 99{
             print(indexPath.row)
-            cell.urlImageView.kf.setImage(with: URL(string:"https://randomuser.me/api/portraits/men/" + "\(indexPath.row - 99)" + ".jpg")!)
+            cell.urlImageView.kf.setImage(with: URL(string:"https://randomuser.me/api/portraits/men/" + "\(indexPath.row - 99)" + ".jpg")!,placeholder:UIImage(named: "loading"))
         }
         return cell
     }
